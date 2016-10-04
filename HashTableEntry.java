@@ -1,0 +1,29 @@
+package edu.neu.algos.assgn10;
+
+public class HashTableEntry<KeyType, ValueType> {
+
+	KeyType key = null;
+	ValueType value = null;
+
+	public HashTableEntry(KeyType key, ValueType value){
+		this.key = key;
+		this.value = value;
+	}
+
+	public KeyType getKey() {
+		return key;
+	}
+
+	public void setKey(KeyType key) {
+		this.key = key;
+	}
+
+	public ValueType getValue() {
+		return value;
+	}
+
+	public void setValue(ValueType value) {
+		this.value = value;
+	}
+
+}
